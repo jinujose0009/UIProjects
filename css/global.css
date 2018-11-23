@@ -1,0 +1,110 @@
+@CHARSET "ISO-8859-1";
+
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+	/*background-image :linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/ch2.jpg);*/
+	 height: 100vh;
+	 background-position: center;
+	 background-size:cover;
+	
+}
+
+
+.content{
+    align-content: center;
+    width: 700px;
+    margin: 0 auto;
+    padding: 10vh 0;
+    background-color: #ffffff;
+}
+.header-content{
+   
+    background-color: #efefef;
+}
+label{
+    display: inline-block;
+    font-style: italic bold;
+    margin: 5 auto;
+    font-size: 20px;
+    left: 0;
+}
+
+header{
+ 
+    text-align: center;
+    margin-bottom: 10 auto;
+}
+.name{
+     width: 100%;
+     display: inline-block;
+     box-sizing: border-box;
+}
+.address{
+    width: 100%;
+     display: inline-block;
+     box-sizing: border-box;
+}
+#firstname{
+     width: 344px;
+    height: 30px;
+}
+#lastname{
+    width: 344px;
+    height: 30px;
+}
+.textarea{
+      width: 99.5%;
+      height: 100px;
+      margin-top: 5 auto;
+}
+.addr{
+    width: 99%;
+    height: 30px;
+    margin-top: 5 auto;
+    
+}
+#citytxt{
+    width: 60%;
+    height: 30px;
+   margin-top: 5 auto;
+   
+}
+#statelist{
+    width: 30%;
+    height: 30px;
+   margin-top: 5 auto;
+   
+}
+#zipcode{
+    width: 7%;
+    height: 30px;
+    margin-top: 5 auto;
+}
+input[type=checkbox].float-checkbox{
+  float:left;
+  margin-right: 50 auto;
+  cursor: pointer;
+} 
+.button{
+     margin: 0 auto;
+     padding: 10vh 0;
+     text-align: center;
+}
+.btn {
+    width: auto;
+    padding: 10px 18px;
+    background-color:cadetblue;
+}
+.footer{
+  position: static;
+  background-color: #efefef;
+  text-align: center;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
